@@ -1,0 +1,12 @@
+.Add{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    background: url('../images/free\ fire.jpg') no-repeat center; 
+    background-size: cover;
+}

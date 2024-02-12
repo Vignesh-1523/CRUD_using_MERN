@@ -1,0 +1,29 @@
+.tag{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 20px;
+    z-index: 55;
+}
+.tag h1{
+    color: rgba(255, 255, 255, 0.897);
+    padding-left: 20px;
+    font-style: italic;
+}
+.tag h1 span{
+    color: rgb(255, 115, 0);
+}
+.nav{
+    margin-right: 50px;
+}
+.nav .link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.897);
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 1.2em;
+}

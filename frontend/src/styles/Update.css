@@ -1,0 +1,45 @@
+.Update{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    background: url('../images/free\ fire.jpg') no-repeat center; 
+    background-size: cover;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    /* padding: 25px; */
+}
+input, button{
+    width: 300px;
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(199, 199, 199);
+    border-radius: 20px;
+    color: rgb(15, 15, 43);
+}
+input::placeholder{
+    color: rgb(15, 15, 43);
+}
+button{
+    width: 350px;
+    background-color: rgb(73, 213, 231);
+    border-bottom: 5px solid rgb(42, 184, 165);
+}
+button:hover{
+    cursor: pointer;
+}
+button .link{
+    text-decoration: none;
+    color: rgb(15, 15, 43);
+}
